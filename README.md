@@ -16,7 +16,7 @@ test/testcases/*.txt
 
 ### 2. La responsabilidad de cada clase creada es la siguiente:
 ```
-test/cube-summation-test.js:
+test/cube-summation-test.js
 ```
 Se encarga de capturar los comandos para los diferentes casos de prueba precargados y presentar los resultados de las pruebas mediante una interfaz CLI.
 ```
