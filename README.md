@@ -1,3 +1,37 @@
+# Coding Challenge
+### 1. Las capas de la aplicación hr_cube-summation (https://github.com/emibelli/hr_cube-summation) son las siguientes:
+##### Vista/Presentación:
+```
+test/cube-summation-test.js
+index.html
+```
+##### Control/Aplicación: 
+```
+cube-summation.js
+```
+##### Modelo/Persistencia:
+```
+test/testcases/*.txt
+```
+
+### 2. La responsabilidad de cada clase creada es la siguiente:
+```
+test/cube-summation-test.js:
+```
+Se encarga de capturar los comandos para los diferentes casos de prueba precargados y presentar los resultados de las pruebas mediante una interfaz CLI.
+```
+index.html
+```
+Se encarga de capturar los datos de entrada (input) y presentar la información de salida (output) mediante una interfaz Web.
+```
+cube-summation.js
+```
+Se encarga de procesar los datos de entrada (input) y generar los datos de salida (output) para dar solución al problema planteado en el Coding Challenge de HackerRank.
+```
+test/testcases/*.txt
+```
+Se encargan de almacenar los datos del caso de ejemplo y los casos de pruebas del Coding Challenge de HackerRank
+
 # hr_cube-summation
 Solución al Cube Summation Coding Challenge de HackerRank (https://www.hackerrank.com/challenges/cube-summation).
 
