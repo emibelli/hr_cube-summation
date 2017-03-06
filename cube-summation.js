@@ -1,5 +1,5 @@
 if (typeof module !== 'undefined') {
-    module.exports.processInput = processInput;
+    module.exports.processData = processData;
     document = false;
 }
 
